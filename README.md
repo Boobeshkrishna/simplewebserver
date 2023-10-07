@@ -41,8 +41,8 @@ Testing the webserver.
 </html>
 ```
 ## OUTPUT:
-##![simple web 1](https://github.com/Boobeshkrishna/simplewebserver/assets/141472052/7655d87d-2de1-4fa5-ad0d-227cc67271af)
-##![simple web 2](https://github.com/Boobeshkrishna/simplewebserver/assets/141472052/cfbab733-d5ff-4791-85fe-6b7c993fc417)
+![image](https://github.com/Boobeshkrishna/simplewebserver/assets/141472052/2408d2cc-ef24-4669-86bc-ff69236f265b)
+![image](https://github.com/Boobeshkrishna/simplewebserver/assets/141472052/e4e57288-5c95-45bd-a11c-12a7b1961082)
 
 RESULT:
 The program for implementing simple webserver is executed successfully.
