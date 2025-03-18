@@ -1,26 +1,42 @@
-# Developing a Simple Webserver
-## DATE: 09.09.2023
+# EX01 Developing a Simple Webserver
+## Date:07.03.2025
+
 ## AIM:
-To develop a simple webserver to serve html pages.
+To develop a simple webserver to serve html pages and display the list of protocols in TCP/IP Protocol Suite.
 
 ## DESIGN STEPS:
 ### Step 1: 
-HTML content creation
+HTML content creation.
+
 ### Step 2:
-Design of webserver workflow
+Design of webserver workflow.
+
 ### Step 3:
-Implementation using Python code
+Implementation using Python code.
+
 ### Step 4:
-Serving the HTML pages.
+Import the necessary modules.
+
 ### Step 5:
-Testing the webserver
+Define a custom request handler.
+
+### Step 6:
+Start an HTTP server on a specific port.
+
+### Step 7:
+Run the Python script to serve web pages.
+
+### Step 8:
+Serve the HTML pages.
+
+### Step 9:
+Start the server script and check for errors.
+
+### Step 10:
+Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
 ```
-NAME: BOOBESH PM
-REG NO:212222233001
-
-
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <!DOCTYPE html>
@@ -29,17 +45,7 @@ content = """
 <title>My webserver</title>
 </head>
 <body>
-<h2 align="center">Top 5 revenue companies </h2>
-<hr>
-<ol>
-<h3>
-<li>apple</li>
-<li>amazon</li>
-<li>Microsoft</li>
-<li>alphabet</li>
-<li>meta</li>
-</h3>
-</ol>
+<h1>Welcome to web <h1>
 </body>
 </html>
 """
@@ -55,10 +61,10 @@ httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
 ```
-## OUTPUT:
-![image](https://github.com/keerthanajayasri/simplewebserver/assets/121163440/82d3a59b-993a-45cb-84ba-9a469c986e3b)
 
-![image](https://github.com/keerthanajayasri/simplewebserver/assets/121163440/4d9b6494-c58e-42ce-b850-41c3a52515bd)
+## OUTPUT:
+![alt text](<Screenshot 2025-03-07 104611.png>)
+![alt text](<Screenshot (39).png>)
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
